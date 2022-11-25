@@ -1,0 +1,36 @@
+// @import 'node_modules/normalize.css/normalize';
+@import "node_modules/tailwindcss/base";
+@import "node_modules/tailwindcss/utilities";
+@import "node_modules/tailwindcss/components";
+
+@import "fonts";
+@import "mq";
+// @import "palette";
+
+// @import "enhancer";
+
+.interactive-atom {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --brand-primary: #CDE4FF;
+    --brand-secondary: #3942A3;
+    --brand-alt: #FFF06B;
+    --brand-alt-b: #D8E9E7;
+    --button-bg-blue: #2B317A;
+    --brand-dark: #0C4537;
+    --brand-light: #F6F2E7;
+  }
+  
+@import "base";
+#Glabs {
+    background-color: #0C4537;
+
+    @import "common";
+    @import "app";
+    @import "audioPlayer";
+        
+
+  }
