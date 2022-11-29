@@ -25,7 +25,14 @@
   }
   
 @import "base";
+
+figure.element {
+  margin-top: 0 !important;
+}
+
+
 #Glabs {
+  font-family: "TS3 Text Sans";
     background-color: #0C4537;
 
     @import "common";

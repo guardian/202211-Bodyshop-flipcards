@@ -116,6 +116,7 @@ const Footer = ({content, related, shareUrl}) => {
                 <div className="content">
                     <div className="cta-wrap">
                         <div className="cta" dangerouslySetInnerHTML={setHtml(content.cta)} />
+                        <Break />
                         <div className="share">
                             <SocialBar title={content.shareTitle} url={shareUrl} />
                         </div>
@@ -194,7 +195,7 @@ const Main = () => {
 
         </div>
         <Container>
-            <Break />
+           
             <Footer content={content} related={store.sheets.related} shareUrl={store.sheets.global[0].shareUrl} />
         </Container>
         </Fragment>
